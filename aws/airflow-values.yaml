@@ -1,0 +1,16 @@
+    gitSync:
+    enabled: true
+
+    # git repo clone url
+    # ssh examples ssh://git@github.com/apache/airflow.git
+    # git@github.com:apache/airflow.git
+    # https example: https://github.com/apache/airflow.git
+    repo: https://github.com/IsaacCZ/Airflow-Templates/blob/main/my_dag.py
+    branch: main
+    rev: HEADw
+    depth: 1
+    # the number of consecutive failures allowed before aborting
+    maxFailures: 0
+    # subpath within the repo where dags are located
+    # should be "" if dags are at repo root
+    subPath: ""
